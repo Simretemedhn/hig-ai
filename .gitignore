@@ -1,0 +1,15 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Confidential environment secrets
+.env
+
+# MacOS/Windows system files
+.DS_Store
+Thumbs.db
+
+# Heavy raw PDFs (Keep repository light)
+data/raw_pdf/*
+!data/raw_pdf/.gitkeep
